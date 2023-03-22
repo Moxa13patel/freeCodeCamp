@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>survey form</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <h1 id="title">Survey form</h1>
+  <p>thanks for taking time to improve us</p>
+  <form method="post">
+  <fieldset>
+      <label for="name">Name :<input type="text" id="name" name="name" required placeholder="enter your name"></label>
+      <label for="email">Email :<input type="text" id="email" name="email" required placeholder="enter your email address"></label>
+      <label for="age">Age :<input type="number" id="number" name="age" max="100" mim="18" placeholder="enter your age"></label>
+      <label>
+        what do you currently do ?
+        <select>
+          <option value"">select option</option>
+          <option value"1">study</option>
+          <option value"2">job</option>
+          <option value"3">other work</option>
+          <option value"4">none of this</option>
+        </select>
+      </label>
+  </fieldset>
+    <fieldset>
+     <p>  Would you like to recommend our app?</p>
+   <label for="yes"><input id="yes" type="radio" name="yes" class="inline">yes</label>
+   <label for="not sure"><input id="not sure" type="radio" name="cot sure" class="inline">not sure
+     
+   </label>
+   <label for="feedback">Any feedback?
+     <textarea id="feedback" name="feedback" rows="4" cols="40" ></textarea>
+   </label>
+    </fieldset>
+ <input type="submit" value="submit"/>
+
+  </form>
+  </body>
+</html>
